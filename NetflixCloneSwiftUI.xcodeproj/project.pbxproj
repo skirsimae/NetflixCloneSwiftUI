@@ -12,6 +12,7 @@
 		CDA4C6C229B1F7830050BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C129B1F7830050BD98 /* Assets.xcassets */; };
 		CDA4C6C529B1F7830050BD98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C429B1F7830050BD98 /* Preview Assets.xcassets */; };
 		CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */; };
+		CDA4C6DF29B209660050BD98 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CDA4C6DE29B209660050BD98 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA4C6DF29B209660050BD98 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +96,9 @@
 			dependencies = (
 			);
 			name = NetflixCloneSwiftUI;
+			packageProductDependencies = (
+				CDA4C6DE29B209660050BD98 /* Kingfisher */,
+			);
 			productName = NetflixCloneSwiftUI;
 			productReference = CDA4C6BA29B1F7810050BD98 /* NetflixCloneSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -122,6 +127,9 @@
 				Base,
 			);
 			mainGroup = CDA4C6B129B1F7810050BD98;
+			packageReferences = (
+				CDA4C6DD29B209660050BD98 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = CDA4C6BB29B1F7810050BD98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -351,6 +359,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CDA4C6DD29B209660050BD98 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CDA4C6DE29B209660050BD98 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDA4C6DD29B209660050BD98 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CDA4C6B229B1F7810050BD98 /* Project object */;
 }
