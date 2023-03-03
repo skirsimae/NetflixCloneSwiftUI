@@ -17,6 +17,7 @@
 		CDA4C6DC29B208B80050BD98 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6DB29B208B80050BD98 /* GlobalHelpers.swift */; };
 		CDA4C6DF29B209660050BD98 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CDA4C6DE29B209660050BD98 /* Kingfisher */; };
 		CDA4C6E129B20C6B0050BD98 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */; };
+		CDA4C6E329B226690050BD98 /* TopMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E229B226690050BD98 /* TopMovieView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CDA4C6D929B208B00050BD98 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
 		CDA4C6DB29B208B80050BD98 /* GlobalHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CDA4C6E229B226690050BD98 /* TopMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMovieView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				CDA4C6D729B208A70050BD98 /* Movie.swift */,
 				CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */,
 				CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */,
+				CDA4C6E229B226690050BD98 /* TopMovieView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				CDA4C6DC29B208B80050BD98 /* GlobalHelpers.swift in Sources */,
 				CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */,
 				CDA4C6E129B20C6B0050BD98 /* HomeViewModel.swift in Sources */,
+				CDA4C6E329B226690050BD98 /* TopMovieView.swift in Sources */,
 				CDA4C6C029B1F7810050BD98 /* ContentView.swift in Sources */,
 				CDA4C6DA29B208B00050BD98 /* StandardHomeMovie.swift in Sources */,
 				CDA4C6D829B208A70050BD98 /* Movie.swift in Sources */,
