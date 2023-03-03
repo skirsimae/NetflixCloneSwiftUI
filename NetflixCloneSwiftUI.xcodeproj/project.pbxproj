@@ -12,7 +12,11 @@
 		CDA4C6C229B1F7830050BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C129B1F7830050BD98 /* Assets.xcassets */; };
 		CDA4C6C529B1F7830050BD98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C429B1F7830050BD98 /* Preview Assets.xcassets */; };
 		CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */; };
+		CDA4C6D829B208A70050BD98 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6D729B208A70050BD98 /* Movie.swift */; };
+		CDA4C6DA29B208B00050BD98 /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6D929B208B00050BD98 /* StandardHomeMovie.swift */; };
+		CDA4C6DC29B208B80050BD98 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6DB29B208B80050BD98 /* GlobalHelpers.swift */; };
 		CDA4C6DF29B209660050BD98 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = CDA4C6DE29B209660050BD98 /* Kingfisher */; };
+		CDA4C6E129B20C6B0050BD98 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CDA4C6C129B1F7830050BD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA4C6C429B1F7830050BD98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDA4C6D729B208A70050BD98 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		CDA4C6D929B208B00050BD98 /* StandardHomeMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		CDA4C6DB29B208B80050BD98 /* GlobalHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +83,11 @@
 		CDA4C6CB29B1F8B20050BD98 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CDA4C6DB29B208B80050BD98 /* GlobalHelpers.swift */,
+				CDA4C6D929B208B00050BD98 /* StandardHomeMovie.swift */,
+				CDA4C6D729B208A70050BD98 /* Movie.swift */,
 				CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */,
+				CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -156,8 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA4C6DC29B208B80050BD98 /* GlobalHelpers.swift in Sources */,
 				CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */,
+				CDA4C6E129B20C6B0050BD98 /* HomeViewModel.swift in Sources */,
 				CDA4C6C029B1F7810050BD98 /* ContentView.swift in Sources */,
+				CDA4C6DA29B208B00050BD98 /* StandardHomeMovie.swift in Sources */,
+				CDA4C6D829B208A70050BD98 /* Movie.swift in Sources */,
 				CDA4C6BE29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
