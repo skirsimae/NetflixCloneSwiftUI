@@ -11,6 +11,7 @@
 		CDA4C6C029B1F7810050BD98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6BF29B1F7810050BD98 /* ContentView.swift */; };
 		CDA4C6C229B1F7830050BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C129B1F7830050BD98 /* Assets.xcassets */; };
 		CDA4C6C529B1F7830050BD98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C429B1F7830050BD98 /* Preview Assets.xcassets */; };
+		CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CDA4C6BF29B1F7810050BD98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDA4C6C129B1F7830050BD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDA4C6C429B1F7830050BD98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				CDA4C6BD29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift */,
 				CDA4C6BF29B1F7810050BD98 /* ContentView.swift */,
+				CDA4C6CB29B1F8B20050BD98 /* Home */,
 				CDA4C6C129B1F7830050BD98 /* Assets.xcassets */,
 				CDA4C6C329B1F7830050BD98 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				CDA4C6C429B1F7830050BD98 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDA4C6CB29B1F8B20050BD98 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CDA4C6CC29B1F8C70050BD98 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */,
 				CDA4C6C029B1F7810050BD98 /* ContentView.swift in Sources */,
 				CDA4C6BE29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift in Sources */,
 			);
