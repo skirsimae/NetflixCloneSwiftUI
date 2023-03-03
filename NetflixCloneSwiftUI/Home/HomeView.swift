@@ -10,6 +10,8 @@ import SwiftUI
 struct HomeView: View {
     var viewModel = HomeViewModel()
     
+    let screen = UIScreen.main.bounds
+    
     var body: some View {
         ZStack {
             Color.black
@@ -20,6 +22,10 @@ struct HomeView: View {
             //Lazy VStack will request the images on scroll
             ScrollView(showsIndicators: false) {
                 LazyVStack {
+                    TopMovieView(movie: exampleMovie1)
+                        .frame(width: screen.width)
+                        .padding(.top, -110)
+                    
                     //identify each category with the id: \.self == each category is unique with the hash value
                     ForEach(viewModel.allCategories, id: \.self) { category in
                         VStack {
