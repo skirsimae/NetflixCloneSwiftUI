@@ -20,7 +20,7 @@
 		CDA4C6E129B20C6B0050BD98 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */; };
 		CDA4C6E329B226690050BD98 /* TopMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E229B226690050BD98 /* TopMovieView.swift */; };
 		CDA4C6E529B22C540050BD98 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E429B22C540050BD98 /* SmallVerticalButton.swift */; };
-		CDA4C6E729B231340050BD98 /* WhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E629B231340050BD98 /* WhiteButton.swift */; };
+		CDA4C6E729B231340050BD98 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E629B231340050BD98 /* PlayButton.swift */; };
 		CDA4C6ED29B23FFF0050BD98 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6EC29B23FFF0050BD98 /* MovieDetail.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,7 +38,7 @@
 		CDA4C6E029B20C6B0050BD98 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		CDA4C6E229B226690050BD98 /* TopMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMovieView.swift; sourceTree = "<group>"; };
 		CDA4C6E429B22C540050BD98 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
-		CDA4C6E629B231340050BD98 /* WhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteButton.swift; sourceTree = "<group>"; };
+		CDA4C6E629B231340050BD98 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		CDA4C6EC29B23FFF0050BD98 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,7 +106,7 @@
 			children = (
 				CDA4C6D929B208B00050BD98 /* StandardHomeMovie.swift */,
 				CDA4C6E429B22C540050BD98 /* SmallVerticalButton.swift */,
-				CDA4C6E629B231340050BD98 /* WhiteButton.swift */,
+				CDA4C6E629B231340050BD98 /* PlayButton.swift */,
 				CDA4C6E229B226690050BD98 /* TopMovieView.swift */,
 			);
 			path = HelperViews;
@@ -225,7 +225,7 @@
 				CDA4C6D829B208A70050BD98 /* Movie.swift in Sources */,
 				CDA4C6BE29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift in Sources */,
 				CDA4C6E529B22C540050BD98 /* SmallVerticalButton.swift in Sources */,
-				CDA4C6E729B231340050BD98 /* WhiteButton.swift in Sources */,
+				CDA4C6E729B231340050BD98 /* PlayButton.swift in Sources */,
 				CDA4C6ED29B23FFF0050BD98 /* MovieDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

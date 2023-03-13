@@ -41,7 +41,11 @@ struct MovieDetail: View {
                                 .bold()
                                 .font(.headline)
                         }
+                        PlayButton(text: "Play", imageName: "play.fill", backgroundColor: .red) {
+                            
+                        }
                     }
+                    .padding(.horizontal, 10)
                 }
                 Spacer()
             }
