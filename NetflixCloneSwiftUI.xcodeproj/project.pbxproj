@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0148FA29BF275F00CCD19C /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0148F929BF275F00CCD19C /* Episode.swift */; };
 		CDA4C6BE29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6BD29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift */; };
 		CDA4C6C029B1F7810050BD98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6BF29B1F7810050BD98 /* ContentView.swift */; };
 		CDA4C6C229B1F7830050BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C129B1F7830050BD98 /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD0148F929BF275F00CCD19C /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		CDA4C6BA29B1F7810050BD98 /* NetflixCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA4C6BD29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixCloneSwiftUIApp.swift; sourceTree = "<group>"; };
 		CDA4C6BF29B1F7810050BD98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				CDA4C6D729B208A70050BD98 /* Movie.swift */,
+				CD0148F929BF275F00CCD19C /* Episode.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA4C6DC29B208B80050BD98 /* GlobalHelpers.swift in Sources */,
+				CD0148FA29BF275F00CCD19C /* Episode.swift in Sources */,
 				CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */,
 				CDA4C6E129B20C6B0050BD98 /* HomeViewModel.swift in Sources */,
 				CDA4C6E329B226690050BD98 /* TopMovieView.swift in Sources */,

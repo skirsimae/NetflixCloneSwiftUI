@@ -27,7 +27,7 @@ struct HomeView: View {
                          
                     TopMovieView(movie: exampleMovie1)
                         .frame(width: screen.width)
-                        .padding(.top, -110)
+                        .padding(.top, -125)
                     //put the top view behind the top header
                         .zIndex(-1)
                     
