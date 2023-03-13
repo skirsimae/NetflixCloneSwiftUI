@@ -12,6 +12,7 @@ struct CustomTabSwitcherView: View {
     @State private var currentTab: CustomTab = .episode
     
     var tabs: [CustomTab]
+    var movie: Movie
     
     func getWidth(for tab: CustomTab) -> CGFloat {
         let string = tab.rawValue
@@ -55,7 +56,7 @@ struct CustomTabSwitcherView: View {
             case .trailer:
                 Text("Trailers")
             case .more:
-                Text("More")
+                MoreLikeThisView(movies: movie.moreLikeThisMovies)
             }
         }
         .foregroundColor(.white)
@@ -74,7 +75,7 @@ struct CustomTabSwitcherView_Previews: PreviewProvider {
             Color.black
                 .edgesIgnoringSafeArea(.all)
             
-            CustomTabSwitcherView(tabs: [.episode, .trailer, .more])
+            CustomTabSwitcherView(tabs: [.episode, .trailer, .more], movie: exampleMovie1)
         }
     }
 }
