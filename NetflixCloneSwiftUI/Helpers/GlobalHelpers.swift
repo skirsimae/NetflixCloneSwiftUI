@@ -70,7 +70,19 @@ let episode6 = Episode(name: "Ghosts",
 
 var allExampleEpisodes = [episode1, episode2, episode3, episode4, episode5, episode6]
 
-let exampleMovie1 = Movie(id: UUID().uuidString, name: "DARK", thumbnailURL: URL(string: "https:/picsum.photos/200/300")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 1, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6], trailers: exampleTrailers)
+let exampleMovie1 = Movie(
+    id: UUID().uuidString,
+    name: "DARK",
+    thumbnailURL: URL(string: "https:/picsum.photos/200/300")!,
+    categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
+    year: 2020, rating: "TV-MA",
+    numberOfSeasons: 1,
+    defaultEpisodeInfo: exampleEpisodeInfo1,
+    creators: "SK",
+    cast: "MS",
+    moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6],
+    episodes: allExampleEpisodes,
+    trailers: exampleTrailers)
 let exampleMovie2 = Movie(id: UUID().uuidString, name: "Travellers", thumbnailURL: URL(string: "https:/picsum.photos/200/300/")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 2, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], trailers: exampleTrailers)
 let exampleMovie3 = Movie(id: UUID().uuidString, name: "Community", thumbnailURL: URL(string: "https:/picsum.photos/200/301")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 3, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], trailers: exampleTrailers)
 let exampleMovie4 = Movie(id: UUID().uuidString, name: "Alone", thumbnailURL: URL(string: "https:/picsum.photos/200/302")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 4, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], trailers: exampleTrailers)
