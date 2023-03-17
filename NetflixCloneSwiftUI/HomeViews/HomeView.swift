@@ -29,7 +29,7 @@ struct HomeView: View {
                 LazyVStack {
                     
                     TopRowButtons(topRowSelection: $topRowSelection, homeGenre: $homeGenre, showGenreSelection: $showGenreSelection, showTopRowSelection: $showTopRowSelection)
-                         
+                    
                     TopMovieView(movie: exampleMovie1)
                         .frame(width: screen.width)
                         .padding(.top, -125)
@@ -37,7 +37,7 @@ struct HomeView: View {
                         .zIndex(-1)
                     
                     //identify each category with the id: \.self == each category is unique with the hash value
-                    HomeStackView(viewModel: viewModel, topRowSelection: topRowSelection, movieDetailToShow: $movieDetailToShow)
+                    HomeStackView(viewModel: viewModel, topRowSelection: topRowSelection, genre: homeGenre, movieDetailToShow: $movieDetailToShow)
                 }
             }
             
@@ -74,6 +74,48 @@ struct HomeView: View {
                         
                         Button {
                             showTopRowSelection = false
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.system(size: 40))
+                        }
+                        .padding(.bottom, 40)
+                    }
+                }
+                .edgesIgnoringSafeArea(.all)
+                .font(.title2)
+            }
+            
+            if showGenreSelection {
+                Group {
+                    Color.black.opacity(0.9)
+                    
+                    VStack(spacing: 40) {
+                        
+                        Spacer()
+                        
+                        ScrollView {
+                            ForEach(viewModel.allGenres, id: \.self) { genre in
+                                Button {
+                                    homeGenre = genre
+                                    showGenreSelection = false
+                                } label: {
+                                    if homeGenre == genre {
+                                        Text(genre.rawValue)
+                                            .bold()
+                                    } else {
+                                        
+                                        Text(genre.rawValue)
+                                            .foregroundColor(.gray)
+                                    }
+                                }
+                                .padding(.bottom, 40)
+                            }
+                        }
+                        
+                        Spacer()
+                        
+                        Button {
+                            showGenreSelection = false
                         } label: {
                             Image(systemName: "xmark.circle.fill")
                                 .font(.system(size: 40))
