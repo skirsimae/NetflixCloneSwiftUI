@@ -46,6 +46,44 @@ struct HomeView: View {
                     .animation(.easeIn, value: 0.5)
                     .transition(.opacity)
             }
+            
+            if showTopRowSelection {
+                Group {
+                    Color.black.opacity(0.9)
+                    
+                    VStack(spacing: 40) {
+                        
+                        Spacer()
+                        
+                        ForEach(HomeTopRow.allCases, id: \.self) { homeTopRow in
+                            Button {
+                                topRowSelection = homeTopRow
+                                showTopRowSelection = false
+                            } label: {
+                                if homeTopRow == topRowSelection {
+                                    Text(homeTopRow.rawValue)
+                                        .bold()
+                                } else {
+                                    Text(homeTopRow.rawValue)
+                                        .foregroundColor(.gray)
+                                }
+                            }
+                        }
+                        
+                        Spacer()
+                        
+                        Button {
+                            showTopRowSelection = false
+                        } label: {
+                            Image(systemName: "xmark.circle.fill")
+                                .font(.system(size: 40))
+                        }
+                        .padding(.bottom, 40)
+                    }
+                }
+                .edgesIgnoringSafeArea(.all)
+                .font(.title2)
+            }
         }
         .foregroundColor(.white)
     }
