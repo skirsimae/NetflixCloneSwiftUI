@@ -19,6 +19,7 @@
 		CD1D68D429CDEA23000F5E96 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D68D329CDEA23000F5E96 /* SearchBar.swift */; };
 		CD1D68D729CDEBC4000F5E96 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D68D629CDEBC4000F5E96 /* Colors.swift */; };
 		CD1D68D929CDF693000F5E96 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D68D829CDF693000F5E96 /* ActivityIndicator.swift */; };
+		CD79A44829D1CB3E00C18430 /* GenerateMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD79A44729D1CB3E00C18430 /* GenerateMovies.swift */; };
 		CDA4C6BE29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6BD29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift */; };
 		CDA4C6C029B1F7810050BD98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6BF29B1F7810050BD98 /* ContentView.swift */; };
 		CDA4C6C229B1F7830050BD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDA4C6C129B1F7830050BD98 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		CD1D68D329CDEA23000F5E96 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		CD1D68D629CDEBC4000F5E96 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		CD1D68D829CDF693000F5E96 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		CD79A44729D1CB3E00C18430 /* GenerateMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMovies.swift; sourceTree = "<group>"; };
 		CDA4C6BA29B1F7810050BD98 /* NetflixCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDA4C6BD29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixCloneSwiftUIApp.swift; sourceTree = "<group>"; };
 		CDA4C6BF29B1F7810050BD98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
