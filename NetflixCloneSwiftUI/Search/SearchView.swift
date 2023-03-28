@@ -12,6 +12,8 @@ struct SearchView: View {
     
     @State private var searchText = ""
     
+    @State private var movieDetailToShow: Movie? = nil
+    
     var body: some View {
         //make a binding that takes a value from the search bar and observes the text and updates the searchText property
         let searchTextBinding = Binding {
@@ -31,19 +33,24 @@ struct SearchView: View {
                 
                 ScrollView {
                     if viewModel.isShowingPopularMovies {
-                        Text("Popular movies")
+                        PopularListView(movies: viewModel.popularMovies, movieDetailToShow: $movieDetailToShow)
                     }
                     
                     if viewModel.viewState == .empty {
-                        Text("empty")
-                    }
-                    
-                    if viewModel.viewState == .ready && !viewModel.isShowingPopularMovies{
-                        Text("ready")
+                        Text("Your search did not have any results.")
+                            .bold()
+                            .padding(.top, 150)
+                    } else if viewModel.viewState == .ready && !viewModel.isShowingPopularMovies{
+                        Text("Search Results")
                     }
                 }
                 
                 Spacer()
+            }
+            
+            
+            if movieDetailToShow != nil {
+                MovieDetail(movie: movieDetailToShow!, movieDetailToShow: $movieDetailToShow)
             }
         }
         .foregroundColor(.white)
@@ -53,5 +60,31 @@ struct SearchView: View {
 struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
         SearchView()
+    }
+}
+
+struct PopularListView: View {
+    var movies: [Movie]
+    
+    @Binding var movieDetailToShow: Movie?
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Text("popular searches")
+                    .bold()
+                    .font(.title3)
+                    .padding(.leading, 12)
+                
+                Spacer()
+            }
+            
+            LazyVStack {
+                ForEach(movies, id: \.id) { movie in
+                    PopularMovieView(movie: movie, movieDetailToShow: $movieDetailToShow)
+                        .frame(height: 75)
+                }
+            }
+        }
     }
 }

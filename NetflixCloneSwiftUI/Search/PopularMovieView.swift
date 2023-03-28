@@ -10,6 +10,9 @@ import Kingfisher
 
 struct PopularMovieView: View {
     var movie: Movie
+    
+    @Binding var movieDetailToShow: Movie?
+    
     var body: some View {
         GeometryReader { proxy in
             HStack {
@@ -30,6 +33,9 @@ struct PopularMovieView: View {
                 .padding(.trailing, 20)
             }
             .foregroundColor(.white)
+            .onTapGesture {
+                self.movieDetailToShow = movie
+            }
         }
     }
 }
@@ -40,7 +46,7 @@ struct PopularMovieView_Previews: PreviewProvider {
             Color.black
                 .edgesIgnoringSafeArea(.all)
             
-            PopularMovieView(movie: exampleMovie1)
+            PopularMovieView(movie: exampleMovie1, movieDetailToShow: .constant(nil))
                 .frame(height: 75)
                 .padding(.horizontal, 50)
         }

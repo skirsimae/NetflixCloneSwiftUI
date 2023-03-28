@@ -16,6 +16,10 @@ class SearchViewModel: ObservableObject {
     @Published var searchResults: [Movie] = []
     @Published var isShowingPopularMovies = true
     
+    init() {
+        getPopularMovies()
+    }
+    
     public func updateSearchText(with text: String) {
         setViewState(to: .loading)
         
