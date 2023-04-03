@@ -9,6 +9,9 @@ import SwiftUI
 
 struct ComingSoonView: View {
     @State private var showNotificationList = false
+    @State private var movieDetailToShow: Movie? = nil
+    
+    @ObservedObject var viewModel = ComingSooViewModel()
     
     var body: some View {
         NavigationStack {
@@ -18,9 +21,12 @@ struct ComingSoonView: View {
                         .edgesIgnoringSafeArea(.all)
                     
                     ScrollView {
-                        VStack {
+                        LazyVStack {
                             NotificationBar(showNotificationList: $showNotificationList)
-                            Text("For each loop here")
+                            ForEach(viewModel.movies) { movie in
+                                ComingSoonRow(movie: movie, movieDetailToShow: $movieDetailToShow)
+                                    .frame(height: 400)
+                            }
                         }
                     }
                     .foregroundColor(.white)
