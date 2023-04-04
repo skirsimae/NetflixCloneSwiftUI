@@ -36,6 +36,8 @@ struct HomeView: View {
                     //put the top view behind the top header
                         .zIndex(-1)
                     
+                    MoviePreviewRow(movies: exampleMovies)
+                    
                     //identify each category with the id: \.self == each category is unique with the hash value
                     HomeStackView(viewModel: viewModel, topRowSelection: topRowSelection, genre: homeGenre, movieDetailToShow: $movieDetailToShow)
                 }

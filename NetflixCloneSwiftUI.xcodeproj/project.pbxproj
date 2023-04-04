@@ -43,6 +43,8 @@
 		CDA4C6ED29B23FFF0050BD98 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6EC29B23FFF0050BD98 /* MovieDetail.swift */; };
 		CDE5CD8829DB1DE300EF5959 /* ComingSoonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8729DB1DE300EF5959 /* ComingSoonViewModel.swift */; };
 		CDE5CD8C29DC23D300EF5959 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */; };
+		CDE5CD8F29DC3FC600EF5959 /* MoviePreviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */; };
+		CDE5CD9229DC432200EF5959 /* MoviePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +84,8 @@
 		CDA4C6EC29B23FFF0050BD98 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		CDE5CD8729DB1DE300EF5959 /* ComingSoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewModel.swift; sourceTree = "<group>"; };
 		CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
+		CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewCellView.swift; sourceTree = "<group>"; };
+		CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +174,7 @@
 				CDA4C6C329B1F7830050BD98 /* Preview Content */,
 				CD0148FD29BF622D00CCD19C /* MovieDetail */,
 				CDE5CD8D29DC28AC00EF5959 /* Download */,
+				CDE5CD9029DC42FC00EF5959 /* Preview */,
 			);
 			path = NetflixCloneSwiftUI;
 			sourceTree = "<group>";
@@ -240,6 +245,15 @@
 				CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */,
 			);
 			path = Download;
+			sourceTree = "<group>";
+		};
+		CDE5CD9029DC42FC00EF5959 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */,
+				CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */,
+			);
+			path = Preview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +332,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE5CD8F29DC3FC600EF5959 /* MoviePreviewCellView.swift in Sources */,
+				CDE5CD9229DC432200EF5959 /* MoviePreviewRow.swift in Sources */,
 				CD79A44A29D1DB0800C18430 /* PopularMovieView.swift in Sources */,
 				CD6C698329D5C25900B5A002 /* ComingSoonView.swift in Sources */,
 				CD01490E29C099FB00CCD19C /* EpisodesView.swift in Sources */,
