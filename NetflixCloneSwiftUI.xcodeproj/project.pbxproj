@@ -42,6 +42,7 @@
 		CDA4C6E729B231340050BD98 /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6E629B231340050BD98 /* PlayButton.swift */; };
 		CDA4C6ED29B23FFF0050BD98 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA4C6EC29B23FFF0050BD98 /* MovieDetail.swift */; };
 		CDE5CD8829DB1DE300EF5959 /* ComingSoonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8729DB1DE300EF5959 /* ComingSoonViewModel.swift */; };
+		CDE5CD8C29DC23D300EF5959 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		CDA4C6E629B231340050BD98 /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
 		CDA4C6EC29B23FFF0050BD98 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		CDE5CD8729DB1DE300EF5959 /* ComingSoonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonViewModel.swift; sourceTree = "<group>"; };
+		CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +169,7 @@
 				CDA4C6E929B23F800050BD98 /* Helpers */,
 				CDA4C6C329B1F7830050BD98 /* Preview Content */,
 				CD0148FD29BF622D00CCD19C /* MovieDetail */,
+				CDE5CD8D29DC28AC00EF5959 /* Download */,
 			);
 			path = NetflixCloneSwiftUI;
 			sourceTree = "<group>";
@@ -229,6 +232,14 @@
 				CDA4C6BD29B1F7810050BD98 /* NetflixCloneSwiftUIApp.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		CDE5CD8D29DC28AC00EF5959 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */,
+			);
+			path = Download;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +331,7 @@
 				CD79A44C29D3111A00C18430 /* SearchResultsGrid.swift in Sources */,
 				CD01490C29BF69BB00CCD19C /* TrailerListView.swift in Sources */,
 				CD01491029C34CE900CCD19C /* HomeStackView.swift in Sources */,
+				CDE5CD8C29DC23D300EF5959 /* DownloadsView.swift in Sources */,
 				CD01490329BF664800CCD19C /* Trailer.swift in Sources */,
 				CD0148FA29BF275F00CCD19C /* Episode.swift in Sources */,
 				CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */,
