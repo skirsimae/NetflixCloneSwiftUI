@@ -29,8 +29,7 @@ struct HomeStackView: View {
                     HStack {
                         ForEach(viewModel.getMovie(forCategory: category, forHomeTopRow: topRowSelection, forGenre: genre)) { movie in
                             StandardHomeMovie(movie: movie)
-                                .frame(width: 100, height: 200)
-                                .padding(.horizontal, 20)
+                                .frame(width: 140, height: 200)
                                 .onTapGesture {
                                     movieDetailToShow = movie
                                 }
@@ -39,6 +38,7 @@ struct HomeStackView: View {
                     }
                 }
             }
+            .padding(.leading, 6)
         }
     }
 }
