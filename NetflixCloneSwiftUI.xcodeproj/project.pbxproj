@@ -45,6 +45,7 @@
 		CDE5CD8C29DC23D300EF5959 /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */; };
 		CDE5CD8F29DC3FC600EF5959 /* MoviePreviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */; };
 		CDE5CD9229DC432200EF5959 /* MoviePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */; };
+		CDE5CD9429DC535900EF5959 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9329DC535900EF5959 /* PagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		CDE5CD8B29DC23D300EF5959 /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
 		CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewCellView.swift; sourceTree = "<group>"; };
 		CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
+		CDE5CD9329DC535900EF5959 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +254,7 @@
 			children = (
 				CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */,
 				CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */,
+				CDE5CD9329DC535900EF5959 /* PagerView.swift */,
 			);
 			path = Preview;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				CD01490C29BF69BB00CCD19C /* TrailerListView.swift in Sources */,
 				CD01491029C34CE900CCD19C /* HomeStackView.swift in Sources */,
 				CDE5CD8C29DC23D300EF5959 /* DownloadsView.swift in Sources */,
+				CDE5CD9429DC535900EF5959 /* PagerView.swift in Sources */,
 				CD01490329BF664800CCD19C /* Trailer.swift in Sources */,
 				CD0148FA29BF275F00CCD19C /* Episode.swift in Sources */,
 				CDA4C6CD29B1F8C70050BD98 /* HomeView.swift in Sources */,
