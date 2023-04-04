@@ -82,12 +82,86 @@ let exampleMovie1 = Movie(
     cast: "MS",
     moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6],
     episodes: allExampleEpisodes,
-    trailers: exampleTrailers)
-let exampleMovie2 = Movie(id: UUID().uuidString, name: "Travellers", thumbnailURL: URL(string: "https:/picsum.photos/200/300/")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 2, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], trailers: exampleTrailers)
-let exampleMovie3 = Movie(id: UUID().uuidString, name: "Community", thumbnailURL: URL(string: "https:/picsum.photos/200/301")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 3, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], trailers: exampleTrailers)
-let exampleMovie4 = Movie(id: UUID().uuidString, name: "Alone", thumbnailURL: URL(string: "https:/picsum.photos/200/302")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 4, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], trailers: exampleTrailers)
-let exampleMovie5 = Movie(id: UUID().uuidString, name: "Hannibal", thumbnailURL: URL(string: "https:/picsum.photos/200/303")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 5, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], promotionHeadline: "New episodes coming soon", trailers: exampleTrailers)
-let exampleMovie6 = Movie(id: UUID().uuidString, name: "After Life", thumbnailURL: URL(string: "https:/picsum.photos/200/304")!, categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"], year: 2020, rating: "TV-MA", numberOfSeasons: 6, defaultEpisodeInfo: exampleEpisodeInfo1, creators: "SK", cast: "MS", moreLikeThisMovies: [], promotionHeadline: "Watch Season 6 Now", trailers: exampleTrailers)
+    trailers: exampleTrailers, previewImageName: "arrestedDevPreview",
+    previewVideoURL: exampleVideoURL)
+
+let exampleMovie2 = Movie(
+    id: UUID().uuidString,
+    name: "Travellers",
+    thumbnailURL: URL(string: "https:/picsum.photos/200/300/")!,
+    categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
+    year: 2020, rating: "TV-MA",
+    numberOfSeasons: 2,
+    defaultEpisodeInfo: exampleEpisodeInfo1,
+    creators: "SK",
+    cast: "MS",
+    moreLikeThisMovies: [],
+    trailers: exampleTrailers,
+    previewImageName: "ozarkPreview",
+    previewVideoURL: exampleVideoURL)
+
+let exampleMovie3 = Movie(
+    id: UUID().uuidString,
+    name: "Community",
+    thumbnailURL: URL(string: "https:/picsum.photos/200/301")!,
+    categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
+    year: 2020,
+    rating: "TV-MA",
+    numberOfSeasons: 3,
+    defaultEpisodeInfo: exampleEpisodeInfo1,
+    creators: "SK",
+    cast: "MS",
+    moreLikeThisMovies: [],
+    trailers: exampleTrailers,
+    previewImageName: "travelersPreview",
+    previewVideoURL: exampleVideoURL)
+
+let exampleMovie4 = Movie(
+    id: UUID().uuidString,
+    name: "Alone",
+    thumbnailURL: URL(string: "https:/picsum.photos/200/302")!,
+    categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
+    year: 2020, rating: "TV-MA",
+    numberOfSeasons: 4,
+    defaultEpisodeInfo: exampleEpisodeInfo1,
+    creators: "SK",
+    cast: "MS",
+    moreLikeThisMovies: [],
+    trailers: exampleTrailers,
+    previewImageName: "dirtyJohnPreview",
+    previewVideoURL: exampleVideoURL)
+
+let exampleMovie5 = Movie(
+    id: UUID().uuidString,
+    name: "Hannibal",
+    thumbnailURL: URL(string: "https:/picsum.photos/200/303")!,
+    categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
+    year: 2020, rating: "TV-MA",
+    numberOfSeasons: 5,
+    defaultEpisodeInfo: exampleEpisodeInfo1,
+    creators: "SK",
+    cast: "MS",
+    moreLikeThisMovies: [],
+    promotionHeadline: "New episodes coming soon",
+    trailers: exampleTrailers,
+    previewImageName: "whiteLinesPreview",
+    previewVideoURL: exampleVideoURL)
+
+let exampleMovie6 = Movie(
+    id: UUID().uuidString,
+    name: "After Life",
+    thumbnailURL: URL(string: "https:/picsum.photos/200/304")!,
+    categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
+    year: 2020, rating: "TV-MA",
+    numberOfSeasons: 6,
+    defaultEpisodeInfo: exampleEpisodeInfo1,
+    creators: "SK",
+    cast: "MS",
+    moreLikeThisMovies: [],
+    promotionHeadline: "Watch Season 6 Now",
+    trailers: exampleTrailers,
+    previewImageName: "darkPreview",
+    previewVideoURL: exampleVideoURL)
 
 
 var exampleMovies: [Movie] {
