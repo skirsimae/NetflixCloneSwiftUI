@@ -46,6 +46,8 @@
 		CDE5CD8F29DC3FC600EF5959 /* MoviePreviewCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */; };
 		CDE5CD9229DC432200EF5959 /* MoviePreviewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */; };
 		CDE5CD9429DC535900EF5959 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9329DC535900EF5959 /* PagerView.swift */; };
+		CDE5CD9729DC61A800EF5959 /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = CDE5CD9629DC61A800EF5959 /* VideoPlayer */; };
+		CDE5CD9929DC61C000EF5959 /* TrailerPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9829DC61C000EF5959 /* TrailerPlayerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +90,7 @@
 		CDE5CD8E29DC3FC600EF5959 /* MoviePreviewCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewCellView.swift; sourceTree = "<group>"; };
 		CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
 		CDE5CD9329DC535900EF5959 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		CDE5CD9829DC61C000EF5959 /* TrailerPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerPlayerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDA4C6DF29B209660050BD98 /* Kingfisher in Frameworks */,
+				CDE5CD9729DC61A800EF5959 /* VideoPlayer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +181,7 @@
 				CD0148FD29BF622D00CCD19C /* MovieDetail */,
 				CDE5CD8D29DC28AC00EF5959 /* Download */,
 				CDE5CD9029DC42FC00EF5959 /* Preview */,
+				CDE5CD9829DC61C000EF5959 /* TrailerPlayerView.swift */,
 			);
 			path = NetflixCloneSwiftUI;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			name = NetflixCloneSwiftUI;
 			packageProductDependencies = (
 				CDA4C6DE29B209660050BD98 /* Kingfisher */,
+				CDE5CD9629DC61A800EF5959 /* VideoPlayer */,
 			);
 			productName = NetflixCloneSwiftUI;
 			productReference = CDA4C6BA29B1F7810050BD98 /* NetflixCloneSwiftUI.app */;
@@ -308,6 +314,7 @@
 			mainGroup = CDA4C6B129B1F7810050BD98;
 			packageReferences = (
 				CDA4C6DD29B209660050BD98 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				CDE5CD9529DC61A800EF5959 /* XCRemoteSwiftPackageReference "VideoPlayer" */,
 			);
 			productRefGroup = CDA4C6BB29B1F7810050BD98 /* Products */;
 			projectDirPath = "";
@@ -347,6 +354,7 @@
 				CD01490829BF67FE00CCD19C /* VideoPreviewImageView.swift in Sources */,
 				CD79A44429D1C82900C18430 /* SearchView.swift in Sources */,
 				CD1D68D929CDF693000F5E96 /* ActivityIndicator.swift in Sources */,
+				CDE5CD9929DC61C000EF5959 /* TrailerPlayerView.swift in Sources */,
 				CD79A44C29D3111A00C18430 /* SearchResultsGrid.swift in Sources */,
 				CD01490C29BF69BB00CCD19C /* TrailerListView.swift in Sources */,
 				CD01491029C34CE900CCD19C /* HomeStackView.swift in Sources */,
@@ -581,6 +589,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		CDE5CD9529DC61A800EF5959 /* XCRemoteSwiftPackageReference "VideoPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wxxsw/VideoPlayer";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.6;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -588,6 +604,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CDA4C6DD29B209660050BD98 /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		CDE5CD9629DC61A800EF5959 /* VideoPlayer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CDE5CD9529DC61A800EF5959 /* XCRemoteSwiftPackageReference "VideoPlayer" */;
+			productName = VideoPlayer;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
