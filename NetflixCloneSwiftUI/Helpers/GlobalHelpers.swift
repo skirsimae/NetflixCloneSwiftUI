@@ -77,6 +77,7 @@ let exampleMovie1 = Movie(
     categories: ["Dystopian", "Exciting", "Suspenseful", "Sci-Fi TV"],
     year: 2020, rating: "TV-MA",
     numberOfSeasons: 1,
+    accentColor: Color.blue,
     defaultEpisodeInfo: exampleEpisodeInfo1,
     creators: "SK",
     cast: "MS",

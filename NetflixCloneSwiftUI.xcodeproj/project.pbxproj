@@ -48,6 +48,8 @@
 		CDE5CD9429DC535900EF5959 /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9329DC535900EF5959 /* PagerView.swift */; };
 		CDE5CD9729DC61A800EF5959 /* VideoPlayer in Frameworks */ = {isa = PBXBuildFile; productRef = CDE5CD9629DC61A800EF5959 /* VideoPlayer */; };
 		CDE5CD9929DC61C000EF5959 /* TrailerPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9829DC61C000EF5959 /* TrailerPlayerView.swift */; };
+		CDE5CD9B29DC644800EF5959 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9A29DC644800EF5959 /* PreviewView.swift */; };
+		CDE5CD9D29DC647100EF5959 /* PreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE5CD9C29DC647100EF5959 /* PreviewViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +93,8 @@
 		CDE5CD9129DC432200EF5959 /* MoviePreviewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePreviewRow.swift; sourceTree = "<group>"; };
 		CDE5CD9329DC535900EF5959 /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
 		CDE5CD9829DC61C000EF5959 /* TrailerPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerPlayerView.swift; sourceTree = "<group>"; };
+		CDE5CD9A29DC644800EF5959 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		CDE5CD9C29DC647100EF5959 /* PreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 				CDE5CD8D29DC28AC00EF5959 /* Download */,
 				CDE5CD9029DC42FC00EF5959 /* Preview */,
 				CDE5CD9829DC61C000EF5959 /* TrailerPlayerView.swift */,
+				CDE5CD9A29DC644800EF5959 /* PreviewView.swift */,
+				CDE5CD9C29DC647100EF5959 /* PreviewViewModel.swift */,
 			);
 			path = NetflixCloneSwiftUI;
 			sourceTree = "<group>";
@@ -349,7 +355,9 @@
 				CD01490E29C099FB00CCD19C /* EpisodesView.swift in Sources */,
 				CD79A44829D1CB3E00C18430 /* GenerateMovies.swift in Sources */,
 				CD6C698629D5C2D000B5A002 /* NotificationBar.swift in Sources */,
+				CDE5CD9B29DC644800EF5959 /* PreviewView.swift in Sources */,
 				CD1D68D729CDEBC4000F5E96 /* Colors.swift in Sources */,
+				CDE5CD9D29DC647100EF5959 /* PreviewViewModel.swift in Sources */,
 				CDA4C6DC29B208B80050BD98 /* GlobalHelpers.swift in Sources */,
 				CD01490829BF67FE00CCD19C /* VideoPreviewImageView.swift in Sources */,
 				CD79A44429D1C82900C18430 /* SearchView.swift in Sources */,
